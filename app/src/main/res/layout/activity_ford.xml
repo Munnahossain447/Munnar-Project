@@ -13,7 +13,8 @@
         android:padding="20dp"
         android:src="@drawable/ford"
         android:layout_width="match_parent"
-        android:layout_height="250dp"/>
+        android:layout_height="250dp"
+        android:contentDescription="@string/app_name" />
 
 
     <TextView
@@ -21,7 +22,7 @@
         android:gravity="center"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:text="FORD"
+        android:text="@string/ford"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
@@ -30,7 +31,7 @@
         android:padding="16dp"
         android:textColor="@color/black"
         android:textSize="20sp"
-        android:text="Ford Motor Company is an American multinational automobile manufacturer headquartered in Dearborn, Michigan, United States. It was founded by Henry Ford and incorporated on June 16, 1903. The company sells automobiles and commercial vehicles under the Ford brand, and luxury cars under its Lincoln luxury brand"
+        android:text="@string/ford_motor_company_is_an_american_multinational_automobile_manufacturer_headquartered_in_dearborn_michigan_united_states_it_was_founded_by_henry_ford_and_incorporated_on_june_16_1903_the_company_sells_automobiles_and_commercial_vehicles_under_the_ford_brand_and_luxury_cars_under_its_lincoln_luxury_brand"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
