@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Car</string>
+    <string name="ferrari">Ferrari</string>
+    <string name="ferrari_s_p_a_is_an_italian_luxury_sports_car_manufacturer_based_in_maranello_italy_founded_by_enzo_ferrari_in_1939_from_the_alfa_romeo_racing_division_as_auto_avio_costruzioni_the_company_built_its_first_car_in_1940_and_produced_its_first_ferrari_badged_car_in_1947">Ferrari S.p.A. is an Italian luxury sports car manufacturer based in Maranello, Italy. Founded by Enzo Ferrari in 1939 from the Alfa Romeo racing division as Auto Avio Costruzioni, the company built its first car in 1940, and produced its first Ferrari-badged car in 1947</string>
+    <string name="ferrari_812_gts">Ferrari 812 GTS.</string>
+    <string name="ferrari_296_gtb">Ferrari 296 GTB.</string>
+    <string name="ferrari_sf90_stradale">Ferrari SF90 Stradale</string>
+    <string name="ferrari_sf90_spider">Ferrari SF90 Spider.</string>
+    <string name="bayerische_motoren_werke_ag_commonly_referred_to_as_bmw_is_a_german_multinational_corporate_manufacturer_of_luxury_vehicles_and_motorcycles_headquartered_in_munich_bavaria_germany">Bayerische Motoren Werke AG, commonly referred to as BMW, is a German multinational corporate manufacturer of luxury vehicles and motorcycles headquartered in Munich, Bavaria, Germany.</string>
+    <string name="_2_series_gran_coup">2 Series Gran Coupé</string>
+    <string name="_2_series_active_tourer">2 Series Active Tourer</string>
+    <string name="architecture">Architecture</string>
+    <string name="_8_series_g14_g15_g16">8 Series (G14/G15/G16)</string>
+    <string name="bmw">BMW</string>
+    <string name="lamborghini">Lamborghini</string>
+    <string name="automobili_lamborghini_s_p_a_is_an_italian_brand_and_manufacturer_of_luxury_sports_cars_and_suvs_based_in_sant_agata_bolognese_the_company_is_owned_by_the_volkswagen_group_through_its_subsidiary_audi">Automobili Lamborghini S.p.A. is an Italian brand and manufacturer of luxury sports cars and SUVs based in Sant\'Agata Bolognese. The company is owned by the Volkswagen Group through its subsidiary Audi.</string>
+    <string name="lp700_4_roadster_1075">LP700-4 Roadster: 1075</string>
+    <string name="lp720_4_50th_anniversario_coupe">LP720-4 50th Anniversario Coupe</string>
+    <string name="lp720_4_50th_anniversario_roadster">LP720-4 50th Anniversario Roadster</string>
+    <string name="evo_rwd_spyder">Evo RWD Spyder</string>
 </resources>

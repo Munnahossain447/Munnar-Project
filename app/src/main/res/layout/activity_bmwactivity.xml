@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="BMW"
+            android:text="@string/bmw"
             android:textColor="@color/black"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -31,144 +31,141 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            android:text="Bayerische Motoren Werke AG, commonly referred to as BMW, is a German multinational corporate manufacturer of luxury vehicles and motorcycles headquartered in Munich, Bavaria, Germany."
+            android:text="@string/bayerische_motoren_werke_ag_commonly_referred_to_as_bmw_is_a_german_multinational_corporate_manufacturer_of_luxury_vehicles_and_motorcycles_headquartered_in_munich_bavaria_germany"
             android:textColor="@color/black"
             android:textSize="20sp" />
 
         <ImageView
-            android:scaleType="centerCrop"
-            android:src="@drawable/a"
             android:layout_width="match_parent"
-            android:layout_height="200dp"/>
+            android:layout_height="200dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/a" />
 
 
         <TextView
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:textColor="@color/black"
-            android:textSize="14sp"
-            android:text="2 Series Gran Coupé"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/_2_series_gran_coup"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
 
 
         <ImageView
-            android:layout_marginTop="10dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/b"
             android:layout_width="match_parent"
-            android:layout_height="200dp"/>
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/b" />
 
         <TextView
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:textColor="@color/black"
-            android:textSize="14sp"
-            android:text="2 Series Active Tourer"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/_2_series_active_tourer"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
 
         <ImageView
-            android:layout_marginTop="10dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/c"
             android:layout_width="match_parent"
-            android:layout_height="200dp"/>
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/c" />
 
         <TextView
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:textColor="@color/black"
-            android:textSize="14sp"
-            android:text="Architecture"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/architecture"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
 
         <ImageView
-            android:layout_marginTop="10dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/d"
             android:layout_width="match_parent"
-            android:layout_height="200dp"/>
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/d" />
 
         <TextView
 
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:textColor="@color/black"
-            android:textSize="14sp"
-            android:text="8 Series (G14/G15/G16)"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <ImageView
-            android:scaleType="centerCrop"
-            android:src="@drawable/a"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"/>
-
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/_8_series_g14_g15_g16"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
 
         <TextView
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:textColor="@color/black"
-            android:textSize="14sp"
-            android:text="2 Series Gran Coupé"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/_2_series_gran_coup"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
 
 
         <ImageView
-            android:layout_marginTop="10dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/b"
             android:layout_width="match_parent"
-            android:layout_height="200dp"/>
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/b" />
 
         <TextView
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:textColor="@color/black"
-            android:textSize="14sp"
-            android:text="2 Series Active Tourer"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/_2_series_active_tourer"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
 
         <ImageView
-            android:layout_marginTop="10dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/c"
             android:layout_width="match_parent"
-            android:layout_height="200dp"/>
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/c" />
 
         <TextView
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:textColor="@color/black"
-            android:textSize="14sp"
-            android:text="Architecture"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/architecture"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
 
         <ImageView
-            android:layout_marginTop="10dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/d"
             android:layout_width="match_parent"
-            android:layout_height="200dp"/>
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/d" />
 
         <TextView
 
-            android:layout_marginBottom="30dp"
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:textColor="@color/black"
-            android:textSize="14sp"
-            android:text="8 Series (G14/G15/G16)"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/_8_series_g14_g15_g16"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
 
 
     </LinearLayout>
