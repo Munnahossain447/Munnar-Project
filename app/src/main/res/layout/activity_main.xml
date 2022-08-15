@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/blur"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 
@@ -26,47 +26,48 @@
 
         <LinearLayout
             android:id="@+id/bmw"
-            android:orientation="vertical"
             android:layout_width="0dp"
             android:layout_height="150dp"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:orientation="vertical">
 
             <ImageView
-                android:src="@drawable/bmw"
                 android:layout_width="match_parent"
-                android:layout_height="120dp"/>
+                android:layout_height="120dp"
+                android:src="@drawable/bmw" />
+
             <TextView
-                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center"
+                android:text="BMW"
                 android:textColor="@color/white"
                 android:textSize="20sp"
-                android:text="BMW"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:textStyle="bold" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/ford"
-            android:orientation="vertical"
             android:layout_width="0dp"
             android:layout_height="150dp"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:orientation="vertical">
 
             <ImageView
-                android:scaleType="centerCrop"
-                android:src="@drawable/ford"
                 android:layout_width="match_parent"
-                android:layout_height="120dp"/>
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ford" />
 
             <TextView
-                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="Ford"
                 android:textColor="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -75,59 +76,59 @@
 
 
     <LinearLayout
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:orientation="horizontal">
 
         <LinearLayout
             android:id="@+id/lam"
-            android:orientation="vertical"
             android:layout_width="0dp"
             android:layout_height="150dp"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:orientation="vertical">
 
             <ImageView
-                android:src="@drawable/lamborghini"
                 android:layout_width="match_parent"
-                android:layout_height="120dp"/>
+                android:layout_height="120dp"
+                android:src="@drawable/lamborghini" />
+
             <TextView
-                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:gravity="center"
+                android:text="Lamborghini"
                 android:textColor="@color/white"
                 android:textSize="20sp"
-                android:text="Lamborghini"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:textStyle="bold" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/ferrari"
-            android:orientation="vertical"
             android:layout_width="0dp"
             android:layout_height="150dp"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:orientation="vertical">
 
             <ImageView
-                android:src="@drawable/ferrari"
                 android:layout_width="match_parent"
-                android:layout_height="120dp" />
+                android:layout_height="120dp"
+                android:src="@drawable/ferrari" />
 
             <TextView
-                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="ferrari"
                 android:textColor="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
 
     </LinearLayout>
-
 
 
 </LinearLayout>
